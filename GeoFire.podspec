@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 #  s.osx.deployment_target = '10.10'
   s.ios.dependency  'Firebase', '~> 3.2'
+  s.ios.dependency  'Firebase/Database', '~> 3.2'
 #  s.osx.dependency  'FirebaseOSX', '~> 3.2'
   s.framework = 'CoreLocation'
   s.requires_arc = true
